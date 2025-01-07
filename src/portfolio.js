@@ -47,8 +47,17 @@ const projects = [
 			'System Integration', 'Embedded Systems', 'Image Processing', 'Cross-team Collaboration',
 			'Performance Optimization', 'Regulatory Compliance'
 		],
-		sourceCode: 'https://github.com',
-		livePreview: 'https://github.com',
+	},
+	{
+		name: 'JustGptIt.com',
+		description:
+			'A parodic website similar to LetMeGoogleThatForYou.com, attracting hundreds of new users weekly through organic growth. Developed a serverless web application using GCP, React, Django, Docker, GitHub Actions, PostgreSQL, and CloudFlare. Leveraged Google Cloud Run and CloudFlare reverse proxy with GitHub Pages for deployment. Implemented link-shortening and query-caching using PostgreSQL to optimize cost and latency. Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment. Demonstrated end-to-end problem solving, from product design and frontend to cloud deployment.',
+		stack: ['React', 'Django', 'PostgreSQL', 'Docker', 'Google Cloud Platform', 'CloudFlare',
+			'GitHub Actions', 'CI/CD', 'Cloud Run', 'GitHub Pages', 'Serverless Architecture',
+			'Full Stack Development', 'Web Development'
+		],
+		sourceCode: 'https://github.com/noamzilo/JustGptIt',
+		livePreview: 'https://justgptit.com',
 	},
 ]
 
