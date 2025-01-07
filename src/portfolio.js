@@ -23,6 +23,7 @@ const projects = [
 	// if there are no projects, Projects section won't show up
 	{
 		name: 'ML data pipelines & Computer Vision at Scale',
+		image: 'noam_noam2.jpg.bmp',
 		description:
 			'Designed SDKs and automated ETL processes handling 1M+ images/week across BigQuery, MongoDB, and OneFS, creating 30+ datasets in ClearML, S3, and Dataloop. Boosted detection rates to 95% through optimized preprocessing and retraining workflows. Achieved 10x pipeline performance improvement and 80% preprocessing runtime reduction. Led standardization initiatives reducing redundant work by 15%.',
 		stack: ['Python', 'PyTorch', 'numpy', 'TensorFlow', 'SQL', 'AWS', 'Computer Vision', 'Optimization',
@@ -32,6 +33,7 @@ const projects = [
 	},
 	{
 		name: 'Cardiac Mapping System In Vivo',
+		image: 'noam_noam2.jpg.bmp',
 		description:
 			'Developed cardiac time-series prediction framework with PyTorch Lightning, automating 95% of manual processes. Created custom tooling and designed real-time mapping pipeline using Python and ZeroMQ for in-vivo procedures. Created end-to-end solutions from the physics level to Unity frontend visualization, enabling reliable clinical usage and driving business growth.',
 		stack: ['Python', 'PyTorch Lightning', 'numpy', 'pandas', 'ZeroMQ', 'Unity', 'Time Series Analysis',
@@ -41,6 +43,7 @@ const projects = [
 	},
 	{
 		name: 'Avionic Real-Time Data Distribution System',
+		image: 'noam_noam2.jpg.bmp',
 		description:
 			'Developed real-time data pipelines using DDS for airborne systems, transforming native-per-hardware development into a generic API layer. Enabled 60+ developers to collaborate efficiently, reduced regulation overhead by 90%, and accelerated development cycles. Optimized aerial image registration runtime by 90+% using classical CV techniques. Created a reusable framework for aerial and satellite image processing that became the foundation for future Air Force projects. Developed APIs and embedded applications for airborne platforms, ensuring seamless integration across simulation, algorithm, and application teams.',
 		stack: ['C++', 'Python', 'DDS', 'Real-time Systems', 'Computer Vision', 'API Development',
@@ -50,6 +53,7 @@ const projects = [
 	},
 	{
 		name: 'JustGptIt.com',
+		image: 'noam_noam2.jpg.bmp',
 		description:
 			'A parodic website similar to LetMeGoogleThatForYou.com, attracting hundreds of new users weekly through organic growth. Developed a serverless web application using GCP, React, Django, Docker, GitHub Actions, PostgreSQL, and CloudFlare. Leveraged Google Cloud Run and CloudFlare reverse proxy with GitHub Pages for deployment. Implemented link-shortening and query-caching using PostgreSQL to optimize cost and latency. Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment. Demonstrated end-to-end problem solving, from product design and frontend to cloud deployment.',
 		stack: ['React', 'Django', 'PostgreSQL', 'Docker', 'Google Cloud Platform', 'CloudFlare',

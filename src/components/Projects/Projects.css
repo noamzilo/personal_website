@@ -3,7 +3,7 @@
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 2em;
+	grid-gap: 2.5em;
 }
 
 .projects__grid * {
