@@ -46,5 +46,9 @@
 .stackoverflow-icon {
 	width: 24px;
 	height: 24px;
-	vertical-align: middle;
+	color: var(--clr-fg);
+}
+
+.link--icon:hover .stackoverflow-icon {
+	color: var(--clr-primary);
 }
