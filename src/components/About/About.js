@@ -57,9 +57,9 @@ const About = () => {
 								className='link link--icon'
 							>
 								<img
-									src='/stack-overflow.svg'
+									src={`${process.env.PUBLIC_URL}/stack-overflow.svg`}
 									alt='Stack Overflow'
-									className='stackoverflow-icon'
+									className='link--icon'
 								/>
 							</a>
 						)}
