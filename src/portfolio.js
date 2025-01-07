@@ -9,7 +9,7 @@ const about = {
 	name: 'Noam Salomonski',
 	role: 'Machine Learning Engineer',
 	description:
-		'I am a machine learning engineer with a big passion for building models that can solve real-world problems. I am a quick learner and I am always looking to expand my skills.',
+		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
 	resume: 'https://drive.google.com/file/d/1pGqA4FMvDAAbyah4DRYL0qMEoWFZG1Ag/view?usp=sharing',
 	social: {
 		linkedin: 'https://www.linkedin.com/in/noam-salomonski/',
