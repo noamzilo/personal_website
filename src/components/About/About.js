@@ -49,6 +49,20 @@ const About = () => {
 								<LinkedInIcon />
 							</a>
 						)}
+
+						{social.stackoverflow && (
+							<a
+								href={social.stackoverflow}
+								aria-label='stackoverflow'
+								className='link link--icon'
+							>
+								<img
+									src='/stack-overflow.svg'
+									alt='Stack Overflow'
+									className='stackoverflow-icon'
+								/>
+							</a>
+						)}
 					</>
 				)}
 			</div>
