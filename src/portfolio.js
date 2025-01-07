@@ -22,20 +22,22 @@ const projects = [
 	// projects can be added an removed
 	// if there are no projects, Projects section won't show up
 	{
-		name: 'Project 1',
+		name: 'ML data pipelines & Computer Vision at Scale',
 		description:
-			'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-		stack: ['SASS', 'TypeScript', 'React'],
-		sourceCode: 'https://github.com',
-		livePreview: 'https://github.com',
+			'Designed SDKs and automated ETL processes handling 1M+ images/week across BigQuery, MongoDB, and OneFS, creating 30+ datasets in ClearML, S3, and Dataloop. Boosted detection rates to 95% through optimized preprocessing and retraining workflows. Achieved 10x pipeline performance improvement and 80% preprocessing runtime reduction. Led standardization initiatives reducing redundant work by 15%.',
+		stack: ['Python', 'PyTorch', 'numpy', 'TensorFlow', 'SQL', 'AWS', 'Computer Vision', 'Optimization',
+			'Data Modeling', 'Data Pipelines', 'ETL', 'BigQuery', 'MongoDB', 'ClearML', 'S3', 'Dataloop',
+		],
+		livePreview: 'https://www.uveye.com/blog/',
 	},
 	{
-		name: 'Project 2',
+		name: 'Cardiac Mapping System In Vivo',
 		description:
-			'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-		stack: ['SASS', 'TypeScript', 'React'],
-		sourceCode: 'https://github.com',
-		livePreview: 'https://github.com',
+			'Developed cardiac time-series prediction framework with PyTorch Lightning, automating 95% of manual processes. Created custom tooling and designed real-time mapping pipeline using Python and ZeroMQ for in-vivo procedures. Created end-to-end solutions from the physics level to Unity frontend visualization, enabling reliable clinical usage and driving business growth.',
+		stack: ['Python', 'PyTorch Lightning', 'numpy', 'pandas', 'ZeroMQ', 'Unity', 'Time Series Analysis',
+			'Real-time Systems', 'Signal Processing', 'Feature Engineering', 'SQL', 'Data Modeling', 'Machine Learning',
+		],
+		livePreview: 'https://tinyurl.com/3far3csy',
 	},
 	{
 		name: 'Project 3',
