@@ -40,35 +40,73 @@ const projects = [
 		livePreview: 'https://tinyurl.com/3far3csy',
 	},
 	{
-		name: 'Project 3',
+		name: 'Avionic Real-Time Data Distribution System',
 		description:
-			'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-		stack: ['SASS', 'TypeScript', 'React'],
+			'Developed real-time data pipelines using DDS for airborne systems, transforming native-per-hardware development into a generic API layer. Enabled 60+ developers to collaborate efficiently, reduced regulation overhead by 90%, and accelerated development cycles. Optimized aerial image registration runtime by 90+% using classical CV techniques. Created a reusable framework for aerial and satellite image processing that became the foundation for future Air Force projects. Developed APIs and embedded applications for airborne platforms, ensuring seamless integration across simulation, algorithm, and application teams.',
+		stack: ['C++', 'Python', 'DDS', 'Real-time Systems', 'Computer Vision', 'API Development',
+			'System Integration', 'Embedded Systems', 'Image Processing', 'Cross-team Collaboration',
+			'Performance Optimization', 'Regulatory Compliance'
+		],
 		sourceCode: 'https://github.com',
 		livePreview: 'https://github.com',
 	},
 ]
 
 const skills = [
-	// skills can be added or removed
-	// if there are no skills, Skills section won't show up
-	'HTML',
-	'CSS',
-	'JavaScript',
-	'TypeScript',
-	'React',
-	'Redux',
-	'SASS',
-	'Material UI',
+	// Core ML & Data Engineering
+	'Machine Learning',
+	'Deep Learning',
+	'Computer Vision',
+	'Data Engineering',
+	'ETL Pipeline Design',
+	'Time Series Analysis',
+	'Signal Processing',
+
+	// Programming Languages
+	'Python',
+	'C++',
+	'SQL',
+
+	// ML Frameworks & Libraries
+	'PyTorch',
+	'PyTorch Lightning',
+	'TensorFlow',
+	'Keras',
+	'numpy',
+	'pandas',
+
+	// Cloud & Data Infrastructure
+	'AWS',
+	'S3',
+	'BigQuery',
+	'MongoDB',
+	'ClearML',
+	'Dataloop',
+
+	// System Design & Architecture
+	'Real-time Systems',
+	'Distributed Systems',
+	'Message Queues/Brkokers',
+	'API Development',
+	'System Integration',
+	'Performance Optimization',
+
+	// Development Tools & Practices
 	'Git',
+	'Docker',
 	'CI/CD',
-	'Jest',
-	'Enzyme',
+	'Agile Development',
+
+	// Domain Knowledge
+	'Image Processing',
+	'Feature Engineering',
+	'Data Modeling',
+	'Embedded Systems',
 ]
 
 const contact = {
 	// email is optional - if left empty Contact section won't show up
-	email: 'noamsalomonski@gmail.com',
+	email: 'contact@noamsalomonski.com',
 }
 
 export { header, about, projects, skills, contact }
