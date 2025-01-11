@@ -42,7 +42,7 @@
 
 /* Add styles for project image */
 .project__image {
-	width: 85%;
+	width: 100%;
 	height: auto;
 	border-radius: 8px;
 	margin-bottom: 1em;
