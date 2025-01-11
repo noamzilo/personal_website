@@ -9,4 +9,7 @@
 
 .skills__list-item {
 	margin: 0.35em;
+	white-space: nowrap;
+	display: inline-block;
+	width: auto;
 }
