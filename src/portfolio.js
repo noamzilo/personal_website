@@ -9,7 +9,7 @@ const about = {
 	name: 'Noam Salomonski',
 	role: 'Machine Learning and Data Engineer',
 	description:
-		'I have 10+ years of experience, specializing in scalable ML systems and workflow optimization. Proven track record of reducing manual workloads by 25x and improving detection rates to 95% in production systems. Top 1% Stack Overflow contributor with 27,500+ points, reaching 10M+ people.',
+		'I have 10+ years of experience, specializing in scalable ML systems and workflow optimization. Proven track record of reducing manual workloads by 25x and improving detection rates to 95% in production systems. Top 1% Stack Overflow contributor with 28,000+ points, reaching 10M+ people.',
 	resume: 'https://drive.google.com/file/d/1pGqA4FMvDAAbyah4DRYL0qMEoWFZG1Ag/view?usp=sharing',
 	social: {
 		linkedin: 'https://www.linkedin.com/in/noam-salomonski/',
