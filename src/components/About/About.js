@@ -5,7 +5,7 @@ import './About.css'
 
 const About = () => {
 	const { name, role, description, resume, social } = about
-	console.log(resume)
+	console.log(resume.charAt(0))
 	return (
 		<div className='about center'>
 			{name && (
