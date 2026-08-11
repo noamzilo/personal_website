@@ -22,18 +22,6 @@ const projects = [
 	// projects can be added an removed
 	// if there are no projects, Projects section won't show up
 	{
-		name: 'OneBNB (Firefox Extension)',
-		image: 'onebnb.jpg',
-		description:
-			'A published Firefox extension that rebuilds Airbnb search into a single screen: true nightly prices with fees included, the full discount ladder showing what 7 or 28 nights would save, permanent hiding of ruled-out listings so they never return to the results or the map, a starred/maybe shortlist with private notes that survives across sessions, every saved place pinned on the map at its own price, distance from a named place on every row, and the host conversation embedded directly in each result row. Implemented by intercepting Airbnb\'s own API responses with a blocking webRequest filterResponseData stream filter and rewriting them in flight, which is what makes it Firefox-only: Chrome\'s Manifest V3 removed response-body rewriting. All state stays in browser.storage.local, with no server, no accounts, and no analytics. Built a closed-loop verification harness that drives real Firefox against the live site with Selenium and asserts the rendered DOM as text, plus a suite of pure-logic Node tests, so behavior could be stated in plain English and iterated on automatically instead of verified by hand. Demonstrated end-to-end problem solving, from reverse engineering a live production API to shipping an AMO-signed add-on.',
-		stack: ['JavaScript', 'Firefox WebExtensions', 'Manifest V2', 'webRequest', 'Browser Extensions',
-			'DOM Engineering', 'Reverse Engineering', 'Selenium', 'Python', 'Node.js', 'Web Scraping',
-			'Test Automation', 'UI/UX'
-		],
-		sourceCode: 'https://github.com/noamzilo/airbnb_filter',
-		livePreview: 'https://addons.mozilla.org/en-US/firefox/addon/onebnb/',
-	},
-	{
 		name: 'ML data pipelines & Computer Vision at Scale',
 		image: 'uveye1.jpg',
 		description:
@@ -62,6 +50,18 @@ const projects = [
 			'System Integration', 'Embedded Systems', 'Image Processing', 'Cross-team Collaboration',
 			'Performance Optimization', 'Regulatory Compliance'
 		],
+	},
+	{
+		name: 'OneBNB (Firefox Extension)',
+		image: 'onebnb.jpg',
+		description:
+			'Five screens to book a long stay. Now one, next to the map. Prices that hid their fees. Now the price you pay. Rejected listings, back every search. Now gone for good. Saved places invisible on the map. Now priced pins you can click. Built by rewriting Airbnb\'s own API responses in flight with a webRequest filter. Firefox-only. On AMO, verified by Selenium against the live site.',
+		stack: ['JavaScript', 'Firefox WebExtensions', 'Manifest V2', 'webRequest', 'Browser Extensions',
+			'DOM Engineering', 'Reverse Engineering', 'Selenium', 'Python', 'Node.js', 'Web Scraping',
+			'Test Automation', 'UI/UX'
+		],
+		sourceCode: 'https://github.com/noamzilo/airbnb_filter',
+		livePreview: 'https://addons.mozilla.org/en-US/firefox/addon/onebnb/',
 	},
 	{
 		name: 'JustGptIt.com',
