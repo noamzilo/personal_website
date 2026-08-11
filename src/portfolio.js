@@ -55,7 +55,7 @@ const projects = [
 		name: 'OneBNB (Firefox Extension)',
 		image: 'onebnb.jpg',
 		description:
-			'Five screens to book a long stay. Now one, next to the map. Prices that hid their fees. Now the price you pay. Rejected listings, back every search. Now gone for good. Saved places invisible on the map. Now priced pins you can click. Built by rewriting Airbnb\'s own API responses in flight with a webRequest filter. Firefox-only. On AMO, verified by Selenium against the live site.',
+			'Five screens to book a long stay, now one, next to the map. Prices that hid their fees, now the price you actually pay. Only the discount your dates happen to reach, now the whole ladder: what 7 or 28 nights would save. Rejected listings back again every search, now binned for good. Saved places invisible on the map, now priced pins you can click. "Is that far from work?" asked of every flat, now answered on every row. The host one tab away, now the conversation sits in the row, with your notes. Built by rewriting Airbnb\'s own API responses in flight with a webRequest filter, which is why it is Firefox-only. Published on AMO, verified by Selenium driving real Firefox against the live site.',
 		stack: ['JavaScript', 'Firefox WebExtensions', 'Manifest V2', 'webRequest', 'Browser Extensions',
 			'DOM Engineering', 'Reverse Engineering', 'Selenium', 'Python', 'Node.js', 'Web Scraping',
 			'Test Automation', 'UI/UX'
